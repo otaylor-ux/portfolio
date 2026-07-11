@@ -183,12 +183,14 @@ main > section:first-child .eyebrow { border-top: none; }
 
 .study-annotation {
   display: grid;
-  grid-template-columns: max-content;
+  grid-template-columns: minmax(0, 1fr);
   align-content: start;
   gap: 2px 0;
   font-size: 0.72rem;
   color: var(--slate);
   padding-top: 4px;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 .study-annotation span:not(.v) {
   letter-spacing: 0.06em;
@@ -200,6 +202,9 @@ main > section:first-child .eyebrow { border-top: none; }
   margin-bottom: 4px;
 }
 
+.study-body {
+  min-width: 0;
+}
 .study-body h3 {
   font-family: var(--font-display);
   font-weight: 600;
