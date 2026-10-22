@@ -305,7 +305,6 @@ main > section:first-child .eyebrow { border-top: none; }
 .fineprint {
   font-size: 0.72rem;
   color: var(--slate);
-  border-top: 1px solid var(--line);
   padding-top: 20px;
 }
 .studies {
