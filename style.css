@@ -268,7 +268,7 @@ main > section:first-child .eyebrow { border-top: none; }
   grid-template-columns: 60px 1fr;
   gap: 4px 20px;
   padding: 18px 0;
-  border-top: 1px solid var(--line);
+ 
   align-items: baseline;
 }
 .writing-list li:last-child { border-bottom: 1px solid var(--line); }
