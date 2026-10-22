@@ -308,3 +308,6 @@ main > section:first-child .eyebrow { border-top: none; }
   border-top: 1px solid var(--line);
   padding-top: 20px;
 }
+.studies {
+  display: none;
+}
