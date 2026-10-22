@@ -271,7 +271,7 @@ main > section:first-child .eyebrow { border-top: none; }
  
   align-items: baseline;
 }
-.writing-list li:last-child { border-bottom: 1px solid var(--line); }
+.writing-list li:last-child { border-bottom: none; }
 @media (max-width: 560px) {
   .writing-list li { grid-template-columns: 1fr; gap: 4px; }
 }
